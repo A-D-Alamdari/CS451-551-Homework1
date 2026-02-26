@@ -1,0 +1,4 @@
+# No external dependencies — pure Python 3 standard library only.
+# Tkinter is required for graphical display (usually bundled with Python).
+
+pytest
