@@ -195,8 +195,8 @@ You only need to modify **two files**. All the places where you need to write co
 
 ```bash
 # 1. Clone the repository
-git clone <repo-url>
-cd pac-man-search
+git clone https://github.com/A-D-Alamdari/CS451-551-Homework1.git
+cd CS451-551-Homework1
 
 # 2. Create and activate a virtual environment
 python -m venv .venv
