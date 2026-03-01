@@ -28,6 +28,46 @@
 
 </div>
 
+---
+
+## 📑 Table of Contents
+
+- [👋 Introduction](#-introduction)
+- [🧩 Compatibility](#-compatibility)
+- [🔑 Prerequisites](#-prerequisites)
+- [🧬 Project Structure](#-project-structure)
+- [📃 Files You Should Read (But Not Edit)](#-files-you-should-read-but-not-edit)
+- [🗂️ Files You Will Edit](#️-files-you-will-edit)
+  - [`pacman/search.py` — Functions to Implement](#pacmansearchpy--4-functions)
+  - [`pacman/search_agents.py` — Methods & Heuristics](#pacmansearch_agentspy--7-methods-and-functions)
+- [🔧 Installation](#-installation)
+- [🚀 Getting Started](#-getting-started)
+  - [Play the Game Manually](#step-1-play-the-game-manually)
+  - [Try Different Layouts](#step-2-try-different-layouts)
+  - [Understand the SearchAgent](#step-3-understand-the-searchagent)
+  - [SearchProblem Interface](#step-4-understand-the-searchproblem-interface)
+  - [Provided Data Structures](#step-5-understand-the-provided-data-structures)
+- [📝 Your Tasks (8 Questions — 75 Points Total)](#-your-tasks-8-questions--75-points-total)
+  - [Q1: Depth-First Search](#question-1-depth-first-search-9-pts)
+  - [Q2: Breadth-First Search](#question-2-breadth-first-search-9-pts)
+  - [Q3: Uniform Cost Search](#question-3-uniform-cost-search-9-pts)
+  - [Q4: A* Search](#question-4-a-search-9-pts)
+  - [Q5: Corners Problem — State Representation](#question-5-corners-problem--state-representation-9-pts)
+  - [Q6: Corners Problem — Heuristic](#question-6-corners-problem--heuristic-9-pts)
+  - [Q7: Eating All the Dots — Food Heuristic](#question-7-eating-all-the-dots--food-heuristic-12-pts)
+  - [Q8: Closest Dot Search](#question-8-suboptimal-search--closest-dot-9-pts)
+- [🧐 Testing Your Implementation](#-testing-your-implementation)
+- [📟 Useful Command-Line Options](#-useful-command-line-options)
+- [💡 General Algorithm Hints](#-general-algorithm-hints)
+- [🛠️ Troubleshooting](#️-troubleshooting)
+- [💯 Points Breakdown](#-points-breakdown)
+- [Academic Integrity](#academic-integrity)
+- [🔁 Changes from Original](#-changes-from-original)
+- [🤝 Attribution](#-attribution)
+- [🔗 Useful Links](#-useful-links)
+
+---
+
 ## 👋 Introduction
 
 In this project, your Pac-Man agent will find paths through his maze world, both to reach a particular location and to
