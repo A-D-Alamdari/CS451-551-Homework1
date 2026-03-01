@@ -889,4 +889,3 @@ Modified and extended by Amin D. Alamdari (amin.alamdari@ozu.edu.tr), 2026.
   - [1.4 Informed Search](https://inst.eecs.berkeley.edu/~cs188/textbook/search/informed.html)
 - [COMPSCI 188 - 2018-08-28 - Uninformed Search](https://youtu.be/-Xx0QSFYfIQ?si=_bF2GwypXfw_f2eI)
 - [COMPSCI 188 - 2018-08-30 - A* Search and Heuristics](https://youtu.be/Mlwrx7hbKPs?si=D_bvBKSz4auKd5O7)
-- 
