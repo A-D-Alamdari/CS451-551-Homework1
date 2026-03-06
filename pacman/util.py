@@ -594,7 +594,8 @@ def lookup(name, namespace):
     dots = name.count('.')
     if dots > 0:
         module_name, objName = '.'.join(name.split('.')[:-1]), name.split('.')[-1]
-        module = __import__(module_name)
+        import importlib
+        module = importlib.import_module(module_name)
         return getattr(module, objName)
     else:
         modules = [obj for obj in namespace.values() if str(type(obj)) == "<class 'module'>"]

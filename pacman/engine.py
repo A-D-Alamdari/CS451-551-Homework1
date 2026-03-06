@@ -624,22 +624,30 @@ def read_command(argv: list[str]) -> dict[str, Any]:
 
 
 def load_agent(pacman: str, nographics: bool) -> type:
-    # Scan the pacman.agents subpackage for agent classes
+    # Scan the pacman.agents subpackage and pacman package for agent classes
     import importlib
     import pkgutil
+    import pacman as pacman_pkg
     import pacman.agents as agents_pkg
 
-    for importer, modname, ispkg in pkgutil.iter_modules(agents_pkg.__path__):
-        if not modname.endswith('agents'):
-            continue
-        try:
-            module = importlib.import_module(f'pacman.agents.{modname}')
-        except ImportError:
-            continue
-        if pacman in dir(module):
-            if nographics and modname == 'keyboard_agents':
-                raise Exception('Using the keyboard requires graphics (not text display)')
-            return getattr(module, pacman)
+    # (package prefix, iter path) pairs to search
+    search_locations = [
+        ('pacman.agents', agents_pkg.__path__),
+        ('pacman', pacman_pkg.__path__),
+    ]
+
+    for pkg_prefix, pkg_path in search_locations:
+        for importer, modname, ispkg in pkgutil.iter_modules(pkg_path):
+            if not modname.endswith('agents'):
+                continue
+            try:
+                module = importlib.import_module(f'{pkg_prefix}.{modname}')
+            except ImportError:
+                continue
+            if pacman in dir(module):
+                if nographics and modname == 'keyboard_agents':
+                    raise Exception('Using the keyboard requires graphics (not text display)')
+                return getattr(module, pacman)
     raise Exception('The agent ' + pacman + ' is not specified in any agents module.')
 
 
