@@ -24,17 +24,11 @@
 
 # 📚🧭📖 Homework 1: Search — Student Guide
 
+## Watch the Homework Description by Clicking on the Image
 
 [![Watch the Homework Description](assets/video-demo.png)](https://youtu.be/YJj1z4e3Bgc)
 
 </div>
-
-<p align="center">
-  <a href="https://youtu.be/YJj1z4e3Bgc">
-    <img src="assets/video-demo.png" alt="Watch the demo video">
-  </a>
-</p>
-
 
 
 
