@@ -24,15 +24,10 @@
 
 # 📚🧭📖 Homework 1: Search — Student Guide
 
-% ![](assets/pac-man.png)
 
+[![Watch the Homework Description](assets/video-demo.png)](https://youtu.be/YJj1z4e3Bgc)
 
-<div align="center">
-  <a href="https://youtu.be/YJj1z4e3Bgc">
-    <img src="https://youtu.be/YJj1z4e3Bgc" alt="Watch the video" style="width:100%;">
-  </a>
 </div>
-
 
 
 
