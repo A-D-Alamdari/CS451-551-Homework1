@@ -24,15 +24,10 @@
 
 # 📚🧭📖 Homework 1: Search — Student Guide
 
-![](assets/pac-man.png)
+% ![](assets/pac-man.png)
 
-</div>
 
-<div align="center">
-  <video src="https://github.com/A-D-Alamdari/CS451-551-Homework1/releases/download/Video/Homework_1__Search.mp4" width="100%" controls>
-    Your browser does not support the video tag.
-  </video>
-</div>
+[![Watch the Demo](assets/pac-man.png)]([URL_OF_YOUR_RELEASE_VIDEO](https://github.com/A-D-Alamdari/CS451-551-Homework1/releases/download/Video/Homework_1__Search.mp4))
 
 
 
