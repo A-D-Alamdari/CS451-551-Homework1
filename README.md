@@ -27,7 +27,12 @@
 % ![](assets/pac-man.png)
 
 
-[![Watch the Demo](assets/pac-man.png)]([URL_OF_YOUR_RELEASE_VIDEO](https://github.com/A-D-Alamdari/CS451-551-Homework1/releases/download/Video/Homework_1__Search.mp4))
+<div align="center">
+  <a href="https://youtu.be/YJj1z4e3Bgc">
+    <img src="https://youtu.be/YJj1z4e3Bgc" alt="Watch the video" style="width:100%;">
+  </a>
+</div>
+
 
 
 
